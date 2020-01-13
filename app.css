@@ -18,50 +18,75 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-  }
+}
 
-  h1,h2 {
+.landingtext ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.landingtext li {
+  float: left;
+}
+
+.landingtext li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  padding: 2px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.landingtext li a:hover {
+  background-color: #1a1a1a;
+}
+
+h1,h2 {
     margin: 0;
-  }
+}
 
 .navbar {
     position: fixed;
     right: 1%;
-  }
+}
 
-  ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  li {
+.navbar li {
     float: right;
-  }
+}
   
-  li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
 
-  li h3 {
+.navbar li h3 {
       margin: 0;
-  }
+}
   
-  li a:hover {
-    background-color: #111111;
-  }
+.navbar li a:hover {
+    background-color: #1a1a1a;
+}
 
 .solid {
   background-color: white;
   color: black;
   margin: 0;
-  }
+}
 
-  p {
+.solid p {
     margin: 0;
-  }
+}
