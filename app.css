@@ -1,3 +1,12 @@
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar { /** WebKit */
+  display: none;
+}
+
 html,body {
   margin: 0;
 }
@@ -60,26 +69,33 @@ h1,h2 {
     padding: 0;
     overflow: hidden;
 }
-  
-.navbar li {
-    float: right;
-}
-  
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+
+.navbar ul li {
+  float: right;
 }
 
-.navbar li h3 {
-      margin: 0;
+.navbar ul li h3 {
+    margin: 0;
 }
-  
-.navbar li a:hover {
-    background-color: #1a1a1a;
+
+.navbar ul li a {
+user-select: none;
+cursor: pointer;
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+margin: .5em;
+padding: .5em;
+border: 1px solid transparent;
+border-radius: 1rem;
+transition: all 250ms ease-in-out;
 }
+
+.navbar ul li a:hover {
+border: 1px solid red;
+}
+
 
 .solid {
   background-color: white;
