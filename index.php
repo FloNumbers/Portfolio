@@ -13,13 +13,13 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><h3><a>Contact</a></h3></li>
-            <li><h3><a>Projects</a></h3></li>
-            <li><h3><a>About</a></h3></li>
-            <li><h3><a>Home</a></h3></li>
+            <li><h3><a href="#Contact">Contact</a></h3></li>
+            <li><h3><a href="#Projects">Projects</a></h3></li>
+            <li><h3><a href="#About">About</a></h3></li>
+            <li><h3><a href="#Home">Home</a></h3></li>
         </ul>
     </div>
-    <div class="landingtext">
+    <div id="Home" class="landingtext">
         <h1>I'm Florian Solé</h1>
         <h2>Developer</h2>
         <ul>
@@ -28,41 +28,46 @@
         </ul>
     </div>
     <div class="solid">
-        <h1>About Me</h1>
-        <p>I am Florian Solé. I was born in Tournai in Belgium, but i moved to the Netherlands when i was around 1 year old and still live there to this day.
-            I am 
+        <div id="About" class="aboutPage">
+            <h1>About Me</h1>
+            <p>I am Florian Solé. I was born in Tournai in Belgium, but i moved to the Netherlands when i was around 1 year old and still live there to this day.</p> <br>
+            <h4>School</h4>
+            <p>I am currently studying Application Developer at Scalda in Vlissingen. Before this i studied HBO-ICT at the HZ university, but I didn't meet the
+            requirement to pass on to the next year. Despite all that, I'd say that I have found my passion in programming and am surely planning on continuing this.</p> <br>
+            <h4>Hobbies</h4>
+            <p>In my free time you'll probably find me behind my computer playing some games. That does not mean I don't do sports though. I am the goalkeeper for my 
+                local waterpolo team, and I absolutely love to go windsurfing in the summer.</p>
+        </div>
     </div>
-    <div>
+    <div id="Projects" class="projectsPage">
         <h1>Projects</h1>
-        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-            justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
-            nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-            laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-            nisi. Nam eget dui.
-
-            Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
-            sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et
-            ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet
-            orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-            magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero.
-            Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-            Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis
-            in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. </p>
+        <p>Ever since I started programming I have offcourse doen a couple of projects. Some I am defenitely more proud of than others, but I'll list a few here.
+            The headers will be links aswell as titles to the after mentioned projects. Some of projects will be dutch. All of the repositories of these projects
+             can be found on my github which is linked above and below.
+        </p>
+        <ul>
+            <li><h2><a style="color:white" href="https://sleepy-harbor-96591.herokuapp.com/" target="_blank">original portfolio</a></h2>
+                <p>As the first project I am listing here, you would probably think that this is the project that I'm most proud of. But that is not the case here.
+                This project was my first ever gihub project. This project was meant as a portfolio assignement when I was still studying at the HZ university.
+                For how much experience I had when I started this project, I think that it is a pretty good website. The website is currently in all kinds of disrepair, 
+                and is defenitely not a good website in it's current state, but I am still proud of what i achived with only 1 or 2 months of any coding experience.
+            </p></li>
+            <li><h2><a style="color:white" href="https://flonumbers.github.io/basisschoolproject/" target="_blank">Bassisschoolproject</a></h2>
+                <p>This one is another project I made for an assignement at the HZ university. This was a group project that we had to make for a primary school.
+                    It had to be some kind of small game that had to do with a specific course they teached at that school. We chose history. The whole game is written in typescript
+                    and is made in such a way that you never have to reload the page. You can even save your progress if you don't delete your cookies.
+                    This is a project that I am personally very proud of. Yes the website is still riddled with bugs and quirks that need to be ironed out, but I think 
+                    it's a small fun little game that we made in about 4 or 6 weeks.
+            </p></li>
+            <li><h2><a style="color:white" href="https://www.ditiseendomein.nl/" target="_blank">This very portfolio</a></h2>
+            <p>So this very website you're in right now is also a school assignement, but this one is a school assignement for my current school, Scalda.
+                I will be keeping this website up to date with new projects and thing I'm learning, so everyone who's interested can take a peek.
+            </p></li>
+        </ul>
     </div>
     <div class="solid">
-        <div class="verwerken">
-            <h1 class="verwerkHeader">Contact me</h1>
-            <?php
-    
-            if (isset($_POST['submit'])) {
-                
-            } else {
-    
-            ?>
+        <div id="Contact" class="contactPage">
+            <h1>Contact me</h1>
             <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
                 <p>Name</p>
                 <input type="text" name="name" placeholder="enter your name here">
@@ -70,11 +75,10 @@
                 <input type="text" name="email" placeholder="enter your email here">
                 <br>
                 <p class="par">Subject:</p>
-                <input type="textarea" name="subject" placeholder="enter your subject here">
+                <textarea name="subject" placeholder="enter your subject here"></textarea>
                 <br>
-                <input type="submit" name="submit" value="feedback">
+                <input type="submit" name="submit" value="submit">
             </form>
-            <?php } ?>
         </div>
     </div>
 </body>
