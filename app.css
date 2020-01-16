@@ -103,38 +103,60 @@ background-color: #262626;
   background-color: white;
   color: black;
   margin: 0;
+  display: inline-block;
+  width: 100%;
 }
 
 .solid p {
     margin: 0;
 }
 
-.aboutPage h4 {
+.page h4 {
   margin: 0;
 }
 
-.projectsPage ul {
+.page ul {
   margin: 2rem;
 }
 
-.projectsPageHeader {
+.pageHeader {
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.pageList {
+  display: flex;
   margin: 2rem;
 }
 
-.projectsPageList {
+.pageListHeader {
   display: flex;
 }
 
-.projectsPageList2 {
+.pageList2 {
   display: flex;
   direction: ltr;
+  margin: 1rem;
 }
 
-.pplText {
+.pageText {
   flex: 1;
 }
 
-.pplImage {
+.pageText p {
+  margin-top: 0;
+}
+
+.pplImageContainer {
   margin: 5%;
   margin-top: 0;
+}
+
+.pplImage {
+  box-shadow: 0 5px 10px white;
+}
+
+.aboutImage {
+  border-radius: 50%;
+  box-shadow: 0 5px 10px black;
 }
