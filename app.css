@@ -17,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    font-size: 1.3rem;
 }
 
 .landingtext {
@@ -110,4 +111,30 @@ background-color: #262626;
 
 .aboutPage h4 {
   margin: 0;
+}
+
+.projectsPage ul {
+  margin: 2rem;
+}
+
+.projectsPageHeader {
+  margin: 2rem;
+}
+
+.projectsPageList {
+  display: flex;
+}
+
+.projectsPageList2 {
+  display: flex;
+  direction: ltr;
+}
+
+.pplText {
+  flex: 1;
+}
+
+.pplImage {
+  margin: 5%;
+  margin-top: 0;
 }
