@@ -73,8 +73,8 @@
                             <p>July 2019 - august 2019 PHP developer</p>
                         </li>
                         <li>
-                            <p><strong>Lifegaurd Vlissingen</strong></p>
-                            <p>2016 - 2018 Lifegaurd</p>
+                            <p><strong>Lifeguard Vlissingen</strong></p>
+                            <p>2016 - 2018 Lifeguard</p>
                         </li>
                         <li>
                             <p><strong>Emté Supermarket</strong></p>
