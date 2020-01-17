@@ -65,10 +65,20 @@
                 <div class="aboutImageContainer"><img class="aboutImage" src="assets\windsurfen.jpg" width="100" height="100"></div>
             </div>
             <div class="pageList">
-                <h4>Work experience</h4>
-                <ul>
-                    <li><p></p></li>
-                </ul>
+                <div class="pageText">
+                    <h4>Work experience</h4>
+                    <ul>
+                        <li><p><strong>Zes Goes b.v.</strong></p>
+                            <p>July 2019 - august 2019 PHP developer</p>
+                        </li>
+                        <li><p><strong>Lifegaurd Vlissingen</strong></p>
+                            <p>2016 - 2018 Lifegaurd</p>
+                        </li>
+                        <li><p><strong>Emté Supermarket</strong></p>
+                            <p>2016 - 2018 Re-stocker of shelves</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -142,7 +152,7 @@
     <div class="solid">
         <div id="Contact" class="contactPage">
             <h1>Contact me</h1>
-            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <form method="post" action="email.php">
                 <p>Name</p>
                 <input type="text" name="name" placeholder="enter your name here">
                 <p class="par">Email:</p>
