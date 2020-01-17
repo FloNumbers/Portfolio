@@ -46,7 +46,7 @@
                 <div class="aboutImageContainer"><img style="margin-top:2rem;" class="aboutImage" src="assets\Flag_of_Belgium.png" width="100" height="100"></div>
             </div>
             <div class="pageList">
-                <div class="pageText"> 
+                <div class="pageText">
                     <h4>School</h4>
                     <p>I am currently studying Application Developer at Scalda in Vlissingen. Before this I studied HBO-ICT at
                         the HZ university, but I didn't meet the
@@ -68,13 +68,16 @@
                 <div class="pageText">
                     <h4>Work experience</h4>
                     <ul>
-                        <li><p><strong>Zes Goes b.v.</strong></p>
+                        <li>
+                            <p><strong>Zes Goes b.v.</strong></p>
                             <p>July 2019 - august 2019 PHP developer</p>
                         </li>
-                        <li><p><strong>Lifegaurd Vlissingen</strong></p>
+                        <li>
+                            <p><strong>Lifegaurd Vlissingen</strong></p>
                             <p>2016 - 2018 Lifegaurd</p>
                         </li>
-                        <li><p><strong>Emté Supermarket</strong></p>
+                        <li>
+                            <p><strong>Emté Supermarket</strong></p>
                             <p>2016 - 2018 Re-stocker of shelves</p>
                         </li>
                     </ul>
@@ -85,7 +88,7 @@
     <div id="Projects" class="page">
         <div class="pageHeader">
             <h1>Projects</h1>
-            <p>Ever since I started programming I have offcourse doen a couple of projects. Some I am defenitely more
+            <p>Ever since I started programming I have offcourse done a couple of projects. Some I am defenitely more
                 proud of than others, but I'll list a few here.
                 The headers will be links aswell as titles to the after mentioned projects. Some of projects will be
                 dutch. All of the repositories of these projects
@@ -133,7 +136,7 @@
                 </div>
             </li>
             <li>
-                <h2><a style="color:white" href="https://www.ditiseendomein.nl/" target="_blank">This very portfolio</a></h2>
+                <h2><a style="color:white" href="index.php" target="_blank">This very portfolio</a></h2>
                 <div class="pageList">
                     <div class="pageText">
                         <p>So this very website you're in right now is also a school assignement, but this one is a school
@@ -149,20 +152,42 @@
             </li>
         </ul>
     </div>
-    <div class="solid">
-        <div id="Contact" class="contactPage">
-            <h1>Contact me</h1>
-            <form method="post" action="email.php">
-                <p>Name</p>
-                <input type="text" name="name" placeholder="enter your name here">
-                <p class="par">Email:</p>
-                <input type="text" name="email" placeholder="enter your email here">
-                <br>
-                <p class="par">Subject:</p>
-                <textarea name="subject" placeholder="enter your subject here"></textarea>
-                <br>
-                <input type="submit" name="submit" value="submit">
-            </form>
+    <div class="contactContainer">
+        <div class="solid">
+            <h1 class="pageHeader">Contact me</h1>
+            <div id="Contact" class="contactPage">
+                <div class="contactForm">
+                    <form method="post" action="email.php">
+                        <div class="question">
+                            <input class="formControl" type="text" name="name" placeholder="enter your name here">
+                            <br>
+                        </div>
+                        <div class="question">
+                            <input class="formControl" type="text" name="email" placeholder="enter your email here">
+                            <br>
+                        </div>
+                        <div class="question">
+                            <textarea class="formControl" name="subject" placeholder="enter your subject here"></textarea>
+                            <br>
+                        </div>
+                        <input class="formSubmit" type="submit" name="submit" value="Send mail">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="contactInfoContainer">
+            <div class="contactInfo">
+            <h1 class="pageHeader">Contact Info</h1>
+            <h4>Find me on Linkedin:</h4>
+            <a style="color:white;" href="https://www.linkedin.com/in/florian-sol%C3%A9-76a6b6144/" target="_blank">https://www.linkedin.com/in/florian-sol%C3%A9-76a6b6144/</a>
+            <h4>Find me on Github:</h4>
+            <a style="color:white;" href="https://github.com/FloNumbers?tab=repositories" target="_blank">https://github.com/FloNumbers?tab=repositories</a>
+            <h4>Email:</h4>
+            <p>floriansole@gmail.com</p>
+            <h4>Phone:</h4>
+            <p>0636485409</p>
+            </div>
         </div>
     </div>
 </body>
